@@ -1,0 +1,103 @@
+/* * { */
+/* margin: 0; */
+/* padding: 0; */
+/* box-sizing: border-box; */
+/* } */
+/**/
+@font-face {
+    font-family: Sora;
+    src: url(../fonts/Sora/static/Sora-Regular.ttf);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh; 
+    font-family: Sora; 
+}
+
+.layout {
+    width: 100%;
+    height: 100%;
+    display: flex;
+/*     flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.layout__card {
+    width: 36.8rem;
+    /* height: 38.6rem;  */
+    display: flex; 
+    flex-direction: column; 
+    /* justify-content: center; */
+    /* align-items: center; */
+    border-radius: 1.5rem;
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, .3);
+    margin: 0;
+}
+
+.card__main {
+    padding: 1.6rem;
+}
+
+.card__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem;
+}
+.img__blog {
+    width: 33.6rem;
+    border-radius: 1rem;
+}
+
+.header__title {
+    font-size: 1.8rem;
+    color: #20293A;
+}
+
+.desing__text {
+    display: inline-block;
+    color: #7C19EE;
+    font-size: 1rem;
+    margin: 0 1.6rem;
+    padding: .3rem 1.5rem;
+    background-color: #F2EAFD;
+    border-radius: 2rem;
+}
+
+.card__description {
+    font-size: 1.4rem;
+    color: #394150;
+    line-height: 1.5;
+   /*  margin: .6rem 0 2rem 0; */
+    margin: 0;
+    margin-bottom: .4rem;
+}
+
+.card__footer {
+    border-top: 1px solid #E5EAF0;
+    padding: 1.9rem 1.6rem 2rem 1.6rem;
+}
+
+.footer__tags {
+    font-size: 1.2rem;
+    color: #394150;
+    margin: 0;
+}
+/* .author-info { */
+/*     display: flex; */
+/*     justify-content: center; */
+/*     font-size: 14px; */
+/*     text-align: center; */
+/*     margin-top: 16px; */
+/*     color: rgb(55, 65, 81); */
+/* } */
+/**/
+/* .author-info a { */
+/*     text-decoration: none; */
+/* } */
